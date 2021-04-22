@@ -1,0 +1,112 @@
+.pokedex {
+    background-color: #5F9EA0;
+    box-shadow: 0 5px #4682B4;
+    border: solid 1px #4682B4;
+    border-radius: 8%;
+    width: 300px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 2% auto;
+}
+
+.info-display {
+    height: 40px;
+    margin: 10px auto;
+}
+
+.id-display {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 10px 0 10px 0;
+    float: left;
+}
+
+.id-display:focus {
+    outline: none;
+}
+
+.name-display {
+    user-select: none;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    border: solid 2px;
+    border-radius: 15px;
+    width: 195px;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    float: left;
+}
+
+.pokemon-display {
+    user-select: none;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    margin:  0 auto;
+}
+
+.pokemon {
+    user-select: none;
+    width: 250px;
+    height: 250px;
+    margin:  0 auto;
+    position: absolute;
+}
+
+.type {
+    width: 245px;
+    text-align: right;
+    user-select: none;
+    padding: 5px 0 0 0; 
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.button {
+    text-align: center;
+    width: 100px;
+    background-color: #4682B4;
+    font-weight: bold;
+    user-select: none;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px 3px 10px 3px;
+    float: left;
+    margin: 0 4px auto;
+    box-shadow: 0 5px #27408B;
+}
+
+.button:active {
+    box-shadow: 0 5px #27408B;
+    transform: translateY(3px);
+}
+
+.api {
+    border:  1px;
+    border-radius: 60%;
+    width: 200px;
+    margin: 15px auto 15px auto;
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 5px rgb(70, 89, 107);
+}
+
+.techs {
+    margin-bottom: 10px;
+}

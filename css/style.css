@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #B0C4DE;
+}
+
+a {
+    color: black;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev a {
+    margin-right: 5px;
+}
